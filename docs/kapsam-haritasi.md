@@ -18,6 +18,8 @@ Tarih: 16 Kasım 2026. Hedef, RMOS'un kullanılan işlevlerinin zaman içinde i�
 | Devre mülk / devre tatil | Dönem bazlı satış, tesis, senet ve aidat yönetimi | [RMOS ürün kataloğu](https://rmosweb.com/products) |
 | Kimlik/pasaport okuyucu | Belgeden veri alıp giriş işlemini hızlandıran donanım bağlantısı | [RMOS ürün kataloğu](https://rmosweb.com/products) |
 
+Kamuya açık ürün görsellerinden çıkarılan ekran envanteri (Room Rack, rezervasyon girişi, acente/kontrat, check-in/out, folyo, HK Rack): [rmos-ekran-envanteri.md](rmos-ekran-envanteri.md).
+
 RMOS ayrıca Papyro ve Dijital İtibar Yönetimi ürünlerini ayrı yeni ürünler olarak listeliyor. Bunların mevcut kurulumla ilişkisi henüz bilinmiyor: [RMOS ürün kataloğu](https://rmosweb.com/products).
 
 ## Başlangıç sırası önerisi
