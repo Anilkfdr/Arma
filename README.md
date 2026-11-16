@@ -4,7 +4,7 @@ Arma, otellerin günlük operasyonunu tek sistemde yönetmek için geliştirilen
 
 ## Bu prototip nedir, ne değildir
 
-Uzun vadeli hedef, RMOS gibi kapsamlı otel yazılımlarının **işlevsel muadili** olmaktır: ön büro, kat hizmetleri, folyo ve kasa, gece kapanışı, acente ve kontrat, muhasebe, stok, satın alma ve diğer departmanlar. Kapsam haritası: [docs/kapsam-haritasi.md](docs/kapsam-haritasi.md). Sonraki modüller için ekran envanteri: [docs/rmos-ekran-envanteri.md](docs/rmos-ekran-envanteri.md). Zorunlu kamu bağlantıları ve vergi kuralları: [docs/yasal-yukumlulukler.md](docs/yasal-yukumlulukler.md).
+Uzun vadeli hedef, RMOS gibi kapsamlı otel yazılımlarının **işlevsel muadili** olmaktır: ön büro, kat hizmetleri, folyo ve kasa, gece kapanışı, acente ve kontrat, muhasebe, stok, satın alma ve diğer departmanlar. Kapsam haritası: [docs/kapsam-haritasi.md](docs/kapsam-haritasi.md). Sonraki modüller için ekran envanteri: [docs/rmos-ekran-envanteri.md](docs/rmos-ekran-envanteri.md). Zorunlu kamu bağlantıları ve vergi kuralları: [docs/yasal-yukumlulukler.md](docs/yasal-yukumlulukler.md). Acente, kontrat ve günlük fiyat akışı: [docs/acente-ve-kanal-akisi.md](docs/acente-ve-kanal-akisi.md).
 
 Bu prototip o hedefin **ilk dilimidir**, RMOS'un yerini tutmaz:
 

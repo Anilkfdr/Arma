@@ -149,9 +149,47 @@ Görsel: [pms-hk-rack.webp](https://rmosweb.com/screens/pms-hk-rack.webp) · Say
 
 **Arma'daki karşılığı:** Prototip yalnızca temiz/kirli ve arızalı bilgisini tutuyor. Kat hizmetleri modülü sonraki dilim.
 
+## 7. Forecast (Grafik Forecast ve Tarih Forecast)
+
+Görseller: [pms-graphic-forecast.webp](https://rmosweb.com/screens/pms-graphic-forecast.webp), [pms-date-forecast.webp](https://rmosweb.com/screens/pms-date-forecast.webp) · Sayfa bölümü: Forecast ve Doluluk Analizleri
+
+**Gözlem: Grafik Forecast**
+
+- Filtreler: ay seçimi, başlangıç ve bitiş tarihi, sistem tarihi, alış tarihi, döviz kodu; "Önceki Yıl" ve "Grafik/Tablo" anahtarları; "Özel Konsolide Şirketi" seçimi.
+- Ayın her günü için yığılmış çubuk grafik:
+  - kırmızı: dolu odalar;
+  - yeşil: boş odalar;
+  - üstte turuncu bant: günlük doluluk yüzdesi;
+  - açıklamada ayrıca "geçmiş yıl dolu odalar".
+- Üstte aylık oda ve yatak doluluğu halka grafikleri; yetişkin, çocuk, ücretsiz kişi, toplam kişi, tahmin ve "son durum" sayaçları.
+- Gelir özeti KDV hariç ve KDV dahil olarak ayrı: tahmini gelir, ortalama oda fiyatı, kişi başı ortalama.
+- "Forecast Raporları" menüsü: Grafik, Giriş & Çıkış, Acenta, Ülke, Konum, Konum Mevcut, Gelir, Pansiyon, Acenta Özet, Bilboard, Yıllık ve Tarih Forecast, Kitchen Forecast.
+
+**Gözlem: Tarih Forecast**
+
+- Filtreler: giriş ve çıkış tarihi, acente seçimi, pansiyon seçimi, konsolide şirket.
+- Gün gün tablo sütunları: tarih, mevcut (satılabilir oda), oda (satılan), yetişkin, çocuk, free, pax, forecast, son durum, yüzde, kalan, son yüzde ve "Kon1"–"Kon5" ile bunların yüzdeleri.
+- Örnekte "mevcut" oda sayısı ayın bir gününden sonra değişiyor; satılabilir kapasitenin tarihe göre farklı olabildiğini gösteriyor.
+
+**Hedef otel bilgisi (geçmişe dönük doğrudan gözlem)**
+
+- Fiyat toplantılarında Forecast ekranı açılıyor.
+- Ayın her günü için doluluk çubuk grafikle inceleniyor ve fiyat gün gün dolulukla yeniden belirleniyor.
+- Satılan odanın kapasiteyi aştığı günler ("short'a girmek") ekranda görsel olarak öne çıkıyor.
+
+**Varsayım / bilinmeyen**
+
+- "Short", satılan oda sayısının satılabilir kapasiteyi aşması (aşırı satış, overbooking) anlamında otel jargonu olarak kullanılıyor. Tarih Forecast'taki "kalan" sütununun bu günlerde eksiye düşmesi beklenir. Örnek görselde short gün yok; nasıl renklendirildiği doğrulanmalı.
+- "Kon1–Kon5" sütunları kontenjan grupları veya kontrat grupları olabilir.
+- "Forecast" ve "Tahmin" sütunlarının neyi tahmin ettiği bilinmiyor: beklenen ek satış mı, kontenjanın kullanılmayan kısmı mı?
+- "Alış Tarihi" filtresi, belirli bir tarihe kadar alınmış rezervasyonlarla geçmiş durumu görmeye (pickup analizi) yarıyor olabilir.
+- Fiyat değişikliği bu ekrandan değil, kontrat ve fiyat ekranlarından yapılıyor olabilir. Toplantıda iki ekran arasında gidip gelinip gelinmediği bilinmiyor.
+
+**Arma'daki karşılığı:** Yok. [Acente ve kanal akışı](acente-ve-kanal-akisi.md) belgesinde 3. adım olarak planlandı. Olası iyileştirmeler (öneri, karar değil): forecast'tan ilgili fiyat veya stop sale işlemine hızlı geçiş; merkez ofis için otelleri birleştiren görünüm.
+
 ## Sayfada olup bu envantere detaylı girmeyen görseller
 
-Akıllı Misafir Arama, Satış Raporları, Grafik ve Tarih Forecast, Kasa Raporu, Room Posting (Gece İşlemleri), Acenta Kredi Fatura, Housekeeping Oda İşlemleri, Misafir Listesi ve gösterge paneli görselleri aynı sayfada bulunuyor. Görsel adresleri `https://rmosweb.com/screens/pms-*.webp` biçiminde. İlgili modüle geçildiğinde ayrıca incelenmeli.
+Akıllı Misafir Arama, Satış Raporları, Kasa Raporu, Room Posting (Gece İşlemleri), Acenta Kredi Fatura, Housekeeping Oda İşlemleri, Misafir Listesi ve gösterge paneli görselleri aynı sayfada bulunuyor. Görsel adresleri `https://rmosweb.com/screens/pms-*.webp` biçiminde. İlgili modüle geçildiğinde ayrıca incelenmeli.
 
 ## Bu envanterden çıkan sorular
 

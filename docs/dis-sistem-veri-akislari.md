@@ -22,6 +22,8 @@ RMOS'un kendi sitesi online satış kanalları, kanal yöneticisi, acente sistem
 
 ## Resbox ile kanal yöneticisi aynı şey mi?
 
+Kontrat, kontenjan, stop sale ve günlük fiyat kavramları ile Arma'daki tasarım: [acente-ve-kanal-akisi.md](acente-ve-kanal-akisi.md).
+
 Tam olarak değil. Resbox kendi tanımında özellikle tur operatörü ve acentelerden gelen yeni/değişen/iptal rezervasyonlarını denetleyip PMS'ye aktarma ve onay/ret iletişimine odaklanır. Kanal yöneticileri tipik olarak online satış siteleri arasında fiyat, müsaitlik ve kısıtları senkronize eder ve rezervasyonları PMS'ye getirir. Sağlayıcıların kapsadığı kanallar örtüşebilir; bir otelin birine, ikisine veya farklı bir birleşik çözüme ihtiyaç duyması gerçek satış kanallarına bağlıdır.
 
 ## Henüz bilinmeyenler
