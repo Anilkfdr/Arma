@@ -26,9 +26,9 @@ RMOS ayrıca Papyro ve Dijital İtibar Yönetimi ürünlerini ayrı yeni ürünl
 
 1. **Kapsam kaydı:** Her alan için kullanıcı rolü, amaç, giriş verisi, işlem, sonuç, istisna, rapor ve diğer modüllere etkisini yaz. Kaynağı "RMOS sayfası", "sektör kaynağı", "gözlem" veya "varsayım" olarak belirt.
 2. **Ortak temel:** Otel/tesis, kullanıcı ve yetki, oda/oda tipi, misafir, acente, fiyat/kontrat, işlem geçmişi ve iş tarihi kavramlarını netleştir. Birden çok otel ve para birimini daha sonra yamamak zorunda kalmamak için veri sınırlarını baştan tasarla.
-3. **İlk uçtan uca çalışan akış:** Elle rezervasyon → müsaitlik ve oda atama → giriş → oda durumunun güncellenmesi → oda ücreti ve bir ek harcamanın folyoya işlenmesi → gün sonu → ödeme ve çıkış → günlük rapor. Bu akış diğer modüllerin bağlanacağı temel davranışları görünür kılar.
+3. **İlk uçtan uca çalışan akış:** Elle rezervasyon → müsaitlik ve oda atama → giriş (kimlik bilgileri ve KBS bildirimi) → oda durumunun güncellenmesi → oda ücreti ve bir ek harcamanın folyoya işlenmesi → gün sonu → ödeme ve çıkış → günlük rapor. Bu akış diğer modüllerin bağlanacağı temel davranışları görünür kılar.
 4. **Kapsamı genişletme:** Acente kontratları ve grup rezervasyonları; POS ve stok/cost; satın alma ve muhasebe; CRM, iş takibi ve misafir deneyimi; kalan ürün aileleri. Alanlar arası veri ve kayıtların tutarlılığı her aşamada korunur.
-5. **Gerçek dış bağlantılar:** Kanal yöneticisi, acente merkezi, ödeme, e-Belge ve kimlik bildirimi gibi bağlantıları [dış sistem haritasındaki](dis-sistem-veri-akislari.md) akışlara göre ele al. Sağlayıcı erişimi olmayan bağlantılar prototipte örnek veri ve test arayüzüyle gösterilebilir.
+5. **Gerçek dış bağlantılar ve yasal yükümlülükler:** Kanal yöneticisi, acente merkezi, ödeme, e-Belge ve kimlik bildirimi gibi bağlantıları [dış sistem haritasındaki](dis-sistem-veri-akislari.md) akışlara ve [yasal yükümlülükler listesine](yasal-yukumlulukler.md) göre ele al. Sağlayıcı erişimi olmayan bağlantılar prototipte örnek veri ve test arayüzüyle gösterilebilir.
 
 Bu sıra, nihai kapsamı daraltmaz; ilk doğrulanabilir iş akışını seçer.
 
